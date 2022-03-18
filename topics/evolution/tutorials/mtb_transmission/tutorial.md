@@ -399,7 +399,7 @@ also reuse this code for your own analyses.
 First you will need to open Rstudio within Galaxy. To do this look for Rstudio in the tool panel,
 click on it and click on `execute`. Rstudio will appear in your story as a job that is being continously
 executed. This is the normal behaviour because, indeed, Rstudio is now being executed and will only
-stop once we have finish using it.
+stop once we have finished using it.
 
 To access your Rstudio instance within Galaxy, go to *User>Active Interactive Tools* in the top center
 panel. Now click on the link `Rstudio` that appears below *Name*. The status below *Job Info* should be `running`.
@@ -744,14 +744,13 @@ We will be supporting our findings in the results of our analysis, and the conce
 > 1. The same principles than those explained above apply to the three MDR strains that are
 >    within the same transmission cluster. However in this case there is one strain that shows clear
 >    evidence of *de-novo* evolution of DR. Do you know which strain and why?
-> 2. Are there possible scenarios other than *de-novo* evolution of DR for this strain?
 >
 > > ### {% icon solution %} Solution
 > > 1. Within this cluster of MDR strains, there is one tagged as Pre-XDR by TB-profiler. If we have
 > >    a look at the TB profiler report, we can see that this strain carries an additional mutation in
 > >    *gyrA* that confers resistance to fluorioquinolones. This is compatible with an scenario in which
 > >    fluoroquinolone resistance evolved independently within this patient after being infected with
-> >    the MDR strain.
+> >    the MDR strain.  
 > {: .solution}
 {: .question}
 
@@ -797,11 +796,13 @@ also learned, however, that interpreting clustering results requires careful con
 limitations of the methodology. Clustering analysis is better complemented with phylogenetic analysis,
 which may help overcome some of these limitations.
 
-In the following tutorial you will perform a phylogenetic analysis of these same 20 strains.
+In the [following tutorial]({% link topics/evolution/tutorials/mtb_phylogeny/tutorial.md %}) you will perform a phylogenetic analysis of these same 20 strains.
 
-# Bonus
+# Final note
 
 You might have noticed that one of the strains analyzed presents thousands of differences (SNPs) to
 the reference genome, standing out from the rest of strains. This strain is a *M. canettii* strain,
 that was actually not part of the outbreak investigated. However we decided to include it here. Why? Let's find out
-in the next tutorial.
+in the next tutorial [Tree thinking for tuberculosis evolution and epidemiology]({% link topics/evolution/tutorials/mtb_phylogeny/tutorial.md %}).
+
+
